@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"); */
+background-repeat: no-repeat;
+/* background-position: 10px; */
+/* background-size: cover; */
+/* background-color:#323610 ; */
+}
+.Apps{
+background-color: burlywood;
+}

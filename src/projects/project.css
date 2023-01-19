@@ -1,0 +1,103 @@
+.map{
+    color:white;
+}
+.map>img{
+    height:100vh;
+    width:100vw;
+}
+.project>img{
+width:250px;
+height:179px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    margin:30px;
+    width:300px;
+    height:179px;
+    transition: transform 700ms ease-in;
+    
+}
+.project:hover{
+    color:white;
+    background-color:  rgb(53, 195, 230);
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 7px 0px 0px 7px;
+}
+a{
+    text-decoration: none;
+}
+.project>h3{
+padding-bottom:50px;
+}
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin:200px 0; word-wrap: break-word;
+    height:100vh;
+
+
+}
+.projectcontainer>h1{
+    color:white;
+}
+.projectcontainerproject{
+    display: flex;
+    margin-top: 30px;
+    width:80vw;
+    flex-wrap: wrap;
+    word-wrap: break-word;  
+}
+.wrap{
+  
+word-wrap: break-word;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 195, 230);
+    flex-wrap: wrap;
+    cursor: pointer;
+   color: azure;
+    width: 35px;
+    height:100%;
+    justify-content: space-evenly;
+}
+.links:hover{
+border-radius: 0px 7x 7px 0px ;
+width: 35px;
+    height:100%;
+}
+h2{
+    padding: 0px 20px;
+}
+
+.icon{
+    background-color:white;
+    border-radius: 50%;
+}
+.giticon{
+    background-color:white;
+    padding:4px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color:rgb(170, 230, 30);
+    border-radius: 50%;
+    transition-duration: 2s;
+}
+.giticon:hover{
+    background-color:rgb(174, 235, 31);
+    padding:4px;
+    border-radius: 50%;
+    transition-duration: 2s;
+}
