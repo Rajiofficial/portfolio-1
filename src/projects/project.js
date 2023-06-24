@@ -10,8 +10,8 @@ const project=[
   title:" front end travel app",
   desc:"travel the all country using to react.js",
   github:"https://github.com/Rajiofficialt",
-  netlify:"https://6496d752142800555feb4538--graceful-kashata-e96961.netlify.app/",
-  link:"https://6496d752142800555feb4538--graceful-kashata-e96961.netlify.app/"},
+  netlify:"https://graceful-kashata-e96961.netlify.app/",
+  link:"https://graceful-kashata-e96961.netlify.app/"},
 
   {img:"e-commers.png",
   title:" front-end Real E-Commers website reactjs",
