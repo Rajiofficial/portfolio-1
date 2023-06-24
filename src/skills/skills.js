@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Element } from 'react-scroll'
 import "./skills.css"
 import {LinearProgress} from "@mui/material"
+import pic from './skills.png'
 import "./skills.css"
-
+import Aos from 'aos'
 
 function Skills() {
+   useEffect(()=>{
+      Aos.init({duration:1000})
+    },[])
   return (
    <div className='border'>
 
@@ -13,10 +17,10 @@ function Skills() {
     <Element className='skillcontainer' id="skills">
 
     <div className='skillimg'>
-        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img className='imgpic' src={pic}/>
 
     </div>
-    <div className='skillcontainer-text'>
+    <div data-aos="zoom-in-left" className='skillcontainer-text'>
         <h2>SKILLSET</h2>
         <div className='skillcontainer-skillset'>
             <h5>Html</h5>

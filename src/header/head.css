@@ -17,6 +17,8 @@
     align-items: center;
     justify-content:center ;   
     display: flex;
+    /* background: purple; */
+    
 }
 .head-left>h3{
     font-family:"Lato",sans-serif ;
@@ -25,12 +27,15 @@
 
 }
 h3:hover{
-    color: brown;
-    font-size: 50px;
-    background-color: chartreuse;
-    border: 1px solid red;
-    border-radius: 50px;
-
+    transform: scale(1.09);    
+    background-color:yellowgreen;
+    border-radius: 5px;
+    color:white;
+    padding:5px 20px;
+    letter-spacing:0.7px ;
+    font-family:"Oleo",serif;
+    font-size: 18px;
+    cursor: pointer;
 
 }
 .head-right{

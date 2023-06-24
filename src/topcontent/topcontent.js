@@ -8,7 +8,7 @@ function Topcontent() {
         <div className='topcontent'>
 
 
-          <div className='profileimg' > <div className='inner'><img  src={raji} alt=""></img></div></div>
+          <div className='profileimg' > <div className='inner'><img className='imgs' src={raji} alt=""></img></div></div>
 
 
           <div className="topcontent-container">
@@ -17,7 +17,7 @@ function Topcontent() {
               <span className='span'>email{" : "}rajfernanto764@gmail.com</span>
              
                <p>front-end developer( React.js)</p>
-               <a href="https://drive.google.com/file/d/1XO19BxUrwM2HiHpGCoGYutP2-gx38jlA/view?usp=share_link" target={"_blank"} rel="noreferrer">
+               <a href="https://drive.google.com/file/d/14eD1jk_KQ_seyDXBse9ewxLsH1AN_VhV/view" target={"_blank"} rel="noreferrer">
                 <button className='downloadbutt'>Resume</button>
                </a>
                {/*<a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}><button className='downloadbutt'>My work</button>    </a>*/}
@@ -27,8 +27,8 @@ function Topcontent() {
                 </div>
                 <div className='About'>
                   <h1>About</h1>
-                    <p>       I am RAJI A I completed <i>MSC(COMPUTER SCIENCE)</i> in the year 2022
-                    then i have completed in<i> full stack development in GUVI IIT </i> 
+                    <p>     I AM RAJI.A I Had Completed <i>MSC(COMPUTER SCIENCE)</i> in the year 2022
+                    then i had completed in<i> full stack developer Course in GUVI IIT </i> 
                     </p>
 
                 </div>

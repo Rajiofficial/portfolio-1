@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./experience.css"
 import {Element} from "react-scroll"
+import Aos from 'aos'
 
 function Experience() {
+   useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <Element name="experience">
-      <div className='exp' >
+      <div data-aos="zoom-in">
+      <div data-aos="zoom-in" className='exp' >
         <h1>Personel Experience</h1>
    <div className='ex'>
     
@@ -18,9 +23,9 @@ function Experience() {
     <div>practice self project and deploy</div></div>
 
     <div className='en'>
-    <h4>11 Months</h4>
-    <div>learn and deploying project</div></div>
-
+    <h4>3 Months experience</h4>
+    <div>apphub technology.pvt</div></div>
+    </div>
     </div>
     </div>
     </Element>

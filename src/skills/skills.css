@@ -20,7 +20,7 @@
     /* margin: 200px; */
 }
 .skillcontainer-text{
-color: white;
+color: black;
 flex:0.6;
 max-width: 500px;
 margin-bottom: 20px;
@@ -46,13 +46,44 @@ margin-bottom: 20px;
 }
 .skillcontainer-slider2 .css-5xe99f-MuiLinearProgress-bar1
 {
-    background-color:orangered;
+    background-color:blue;
 }
 .skillcontainer-slider3 .css-5xe99f-MuiLinearProgress-bar1
 {
-    background-color:orangered;
+    background-color:blue;
 }
 .skillcontainer-slider4 .css-5xe99f-MuiLinearProgress-bar1
 {
-    background-color:orangered;
+    background-color:blue;
+}
+.skillcontainer-slider1{
+    background-color: blue;
+}
+
+
+
+
+
+/* /////media query///// */
+
+
+
+
+
+@media  screen and (max-width: 768px) {
+
+.skillcontainer{
+    display: flex;
+    flex-direction: column;   
+    
+    }
+
+
+    .imgpic {
+   
+}
+.skillimg{
+    width: 100px;
+    margin-right: 200px;
+}
 }

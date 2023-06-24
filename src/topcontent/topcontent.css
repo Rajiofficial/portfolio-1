@@ -133,3 +133,23 @@ i{
 p{
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+/* /////media query */
+
+@media screen and (max-width:768px){
+    .inner{
+/* object-fit: contain; */
+margin-bottom: 200px;
+width: 100px;
+    }
+.topcontent-container{
+    margin-top: 800px;
+}
+}

@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Element, Link} from "react-scroll"
 import "./contact.css"
+import Aos from 'aos'
 import GitHubIcon from '@mui/icons-material/GitHub';
 //https://mail.google.com/mail/u/0/#inbox?compose=new
 function Contact() {
+
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
-    <Element className='contact' id="con">
-        <div className='contacts'>
+    <Element  className='contact' id="con">
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"  className='contacts'>
         <h3>Contact</h3>
          <div className='contactspan'>
             <p>Name:<span> Raji A</span></p>
@@ -15,7 +22,7 @@ function Contact() {
             <p>github Username:<span> https://github.com/Rajiofficial </span></p>
          </div>
         <div className='ico'>
-        <div><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#in" target={"_blank"} rel="noreferrer"><img src={require(`./${"Gmail.png"}`)} alt=""/></a></div>
+        {/* <div><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#in" target={"_blank"} rel="noreferrer"><img src={require(`./${"Gmail.png"}`)} alt=""/></a></div> */}
           <div><a href="https://github.com/Rajiofficial" target={"_blank"} rel="noreferrer"><img src={require(`./${"git.png"}`)} alt=""/></a></div>
           <div><a href="https://www.naukri.com/mnjuser/homepage" target={"_blank"} rel="noreferrer"><img src={require(`./${"./naukri.png"}`)} alt=""/></a></div>
           <div><a href="https://in.indeed.com/?from=gnav-homepage/" target={"_blank"} rel="noreferrer"><img src={require(`./${"linked.png"}`)} alt=""/></a></div>

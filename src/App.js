@@ -7,8 +7,10 @@ import Experience from './exp/experience';
 import Contact from './contact/contact';
 
 function App() {
+  console.log("fwrfedsedf")
   return (
     <div className="Apps">
+    
       <Header/>
       <Topcontainer/>
       <Skills/>
