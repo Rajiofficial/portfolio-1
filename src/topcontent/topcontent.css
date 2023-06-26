@@ -150,6 +150,25 @@ margin-bottom: 200px;
 width: 100px;
     }
 .topcontent-container{
-    margin-top: 800px;
+    margin-top: 780px;
+    /* position: absolute; */
+    
+/* margin-left: 30px; */
 }
+.top{
+    margin-right: 200px;
+}
+.ico1{
+    margin-right: 10px;
+}
+.ico2{
+    
+}
+a{
+    margin-left: 30%;
+}
+.name{
+    padding-right: 20px;
+}
+
 }

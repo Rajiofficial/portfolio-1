@@ -101,3 +101,25 @@ h2{
     border-radius: 50%;
     transition-duration: 2s;
 }
+
+.pro{
+    /* object-fit: cover; */
+background-color: black;
+margin-top: 20px;
+}
+@media  screen and (max-width: 768px) {
+.projectcontainer{
+    margin-top: 150%;
+}
+.pro{
+    /* object-fit: cover; */
+background-color: black;
+margin-top: 20px;
+
+}
+.projectcontainerproject{
+
+    margin-right:100px ;
+    padding-right: 140px;
+}
+}

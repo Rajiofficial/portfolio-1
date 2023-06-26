@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
-import {Element, Link} from "react-scroll"
+import {Element} from "react-scroll"
 import "./contact.css"
 import Aos from 'aos'
-import GitHubIcon from '@mui/icons-material/GitHub';
 //https://mail.google.com/mail/u/0/#inbox?compose=new
 function Contact() {
 
@@ -14,12 +13,12 @@ function Contact() {
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500"  className='contacts'>
-        <h3>Contact</h3>
+        <h3 className='can'>Contact</h3>
          <div className='contactspan'>
             <p>Name:<span> Raji A</span></p>
-            <p>Email:<span> rajfernanto764@gmail.com</span></p>
+            <p className='email'>Email:<span> rajfernanto764@gmail.com</span></p>
             <p>Phone:<span> 9600968726</span></p>
-            <p>github Username:<span> https://github.com/Rajiofficial </span></p>
+            <p className='git'>github Username:<span> https://github.com/Rajiofficial </span></p>
          </div>
         <div className='ico'>
         {/* <div><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#in" target={"_blank"} rel="noreferrer"><img src={require(`./${"Gmail.png"}`)} alt=""/></a></div> */}

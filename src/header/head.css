@@ -11,7 +11,11 @@
     z-index: 2000;
     padding-top: 12px;
    
+    
+   
 }
+
+
 .head-left{
     flex:0.4; 
     align-items: center;
@@ -71,4 +75,30 @@ h3:hover{
     padding:5px 20px;
     border-radius:5px;
     cursor:pointer;
+}
+
+
+@media  screen and (max-width: 768px) {
+.head-right{
+position: absolute;
+display: flex;
+/* gap: 20px; */
+position: fixed;
+margin-left: 100px;
+}
+.header{
+    display: flex;
+   
+    /* width: 300px; */
+    height: 70px;
+    justify-content: center;
+}
+.size{
+    width: 1px;
+    padding-right: 30px;
+}
+.ss{
+    
+}
+
 }

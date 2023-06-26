@@ -5,3 +5,13 @@
     background-size:cover;
     background-color: lightseagreen
 }
+
+@media screen and (max-width: 768px){
+    .top-container{
+        height:110vh;
+        background-position: center;
+        background-size:cover;
+        background-color: lightseagreen
+    
+    }
+}

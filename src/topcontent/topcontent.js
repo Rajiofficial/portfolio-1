@@ -12,7 +12,8 @@ function Topcontent() {
 
 
           <div className="topcontent-container">
-              <h1>Raji A</h1>
+          
+              <h1 className='name'>A.Raji </h1>
               <span>Dob{" : "}26:01:1999</span>
               <span className='span'>email{" : "}rajfernanto764@gmail.com</span>
              

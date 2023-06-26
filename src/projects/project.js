@@ -68,7 +68,7 @@ function Project() {
    
   return (
     <Element name='project' className='projectcontainer'>
-      <h1>Projects</h1>
+      <h1 className='pro'>Projects</h1>
       {/* <h2>Credentials</h2>
       <p>Admin log in: manjugopi610@gmail.com</p>
       <p>Password: 333</p>

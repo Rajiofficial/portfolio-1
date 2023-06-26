@@ -50,3 +50,25 @@ width: 500px;
     background-color: orangered;
     border-radius: 50%;
 }
+
+
+
+
+
+@media screen and (max-width:768px){
+ .contacts{
+    
+    margin-left: 100px;
+    height: min-content;
+
+ }
+ .can{
+    font-size: 10px;
+ }
+ .git{
+    font-size: 9px;
+ }
+ .email{
+    font-size: 13px;
+ }   
+}
