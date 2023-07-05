@@ -9,8 +9,8 @@ const project=[
   {img:"travel.png",
   title:" front end travel app",
   desc:"travel the all country using to react.js",
-  github:"https://github.com/Rajiofficialt",
-  netlify:"https://graceful-kashata-e96961.netlify.app/",
+  github:"https://github.com/Rajiofficial/project-travel-1",
+  netlify:"https://brilliant-custard-1d425f.netlify.app/",
   link:"https://graceful-kashata-e96961.netlify.app/"},
 
   {img:"e-commers.png",
