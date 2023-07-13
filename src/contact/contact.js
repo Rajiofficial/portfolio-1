@@ -6,7 +6,7 @@ import Aos from 'aos'
 function Contact() {
 
   useEffect(()=>{
-    Aos.init({duration:1000})
+    Aos.init({duration:1000})  
   },[])
   return (
     <Element  className='contact' id="con">

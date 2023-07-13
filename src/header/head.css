@@ -8,8 +8,9 @@
     background-color: black;
     top:0;
     position:sticky;
-    z-index: 2000;
+    /* z-index: 2000; */
     padding-top: 12px;
+    /* gap: 10px; */
    
     
    
@@ -22,7 +23,7 @@
     justify-content:center ;   
     display: flex;
     /* background: purple; */
-    
+    /* justify-content: space-between; */
 }
 .head-left>h3{
     font-family:"Lato",sans-serif ;
