@@ -1,6 +1,7 @@
 import React from 'react'
 import "./topcontent.css"
 import raji from'./pp 02 (2).JPG' ;
+import resume from '../resume/raji-cv.pdf'
 //lm;lml;lm
 function Topcontent() {
   return (
@@ -18,7 +19,7 @@ function Topcontent() {
               <span className='span'>email{" : "}rajfernanto764@gmail.com</span>
              
                <p>front-end developer( React.js)</p>
-               <a href="https://drive.google.com/file/d/1o59V0X2SZzsWEJRcYDpDskaxQJu1HmPX/view?usp=sharing" target={"_blank"} rel="noreferrer">
+                <a href={resume} download='resume' target={"_blank"} rel="noreferrer">
                 <button className='downloadbutt'>Resume</button>
                </a>
                {/*<a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}><button className='downloadbutt'>My work</button>    </a>*/}
