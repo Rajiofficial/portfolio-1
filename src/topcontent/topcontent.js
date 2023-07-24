@@ -19,7 +19,7 @@ function Topcontent() {
               <span className='span'>email{" : "}rajfernanto764@gmail.com</span>
              
                <p>front-end developer( React.js)</p>
-                <a href='https://drive.google.com/file/d/1o59V0X2SZzsWEJRcYDpDskaxQJu1HmPX/view?usp=sharing' target={"_blank"} rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1iuKraxFBjlIq6s1avfikIVaECAVrTPyy/view?usp=drive_link">
                 <button className='downloadbutt'>Resume</button>
                </a>
                {/*<a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}><button className='downloadbutt'>My work</button>    </a>*/}
